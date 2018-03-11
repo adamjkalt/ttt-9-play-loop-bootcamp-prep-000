@@ -36,11 +36,9 @@ def turn(board)
 end
 
 def play(board)
-  puts "Please enter 1-9:"
-  input = gets.strip
-  index = input_to_index(input)
-  turn = 0
-while turn < 9
-  turn += 1
+  counter = 0
+while counter < 9
+  counter += 1
+  turn(board)
 end
 end
