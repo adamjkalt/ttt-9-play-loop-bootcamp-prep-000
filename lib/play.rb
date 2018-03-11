@@ -40,5 +40,6 @@ def play(board)
 while turn < 9
   puts "Please enter 1-9:"
   turn += 1
+  display_board(board)
 end
 end
